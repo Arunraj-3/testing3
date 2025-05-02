@@ -28,7 +28,7 @@ class SavingAccount extends Bank { // Changed class name to follow naming conven
 public class AbstractExample { // Renamed class to avoid conflict with reserved keyword
     public static void main(String[] args) {
         SavingAccount savingAccount = new SavingAccount("Arvind", 10000); // Fixed capitalization
-        savingAccount.deposit(50000);
+        savingAccount.deposit(500000);
 
         System.out.println("Bank Details:");
         savingAccount.showAccountDetails(); // Added method call to display details
